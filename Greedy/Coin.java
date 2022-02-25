@@ -2,6 +2,7 @@ package Greedy;
 
 import java.util.Scanner;
 
+//11047
 public class Coin {
     public static void main(String[] args) {
  
