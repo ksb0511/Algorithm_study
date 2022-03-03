@@ -1,16 +1,15 @@
 package Codility;
 
 public class Q3_frog {
-    public static int count=0;
     public int solution(int X, int Y, int D) {
         // write your code in Java SE 8
+        int num = Y-X;
+        // if(num%D==0)
+        //     return num/D;
+        // else
+        //     return num/D+1;
 
-        while(X<Y){
-            X+=D;
-            count++;
-        }
-
-        return count;
+        return num%D == 0 ? (num/D):(num/D+1);
 
         
     }
