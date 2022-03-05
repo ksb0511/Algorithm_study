@@ -1,5 +1,10 @@
 package DP;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
 public class Q2579 {
     static int n, score=0;
     static int [] arr;
