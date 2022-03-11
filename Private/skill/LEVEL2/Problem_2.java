@@ -41,10 +41,6 @@ public class Problem_2 {
             System.out.print(result[j]+"\n");
         }
         
-        
-        
-        //System.out.println(words.toString());
-        
         return answer;
     }
 

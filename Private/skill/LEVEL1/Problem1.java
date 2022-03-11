@@ -1,4 +1,4 @@
-package Programmers.Skill_Check.LEVEL1;
+package Private.skill.LEVEL1;
 
 public class Problem1 {
     public String solution(String s) {
