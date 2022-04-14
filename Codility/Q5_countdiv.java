@@ -15,3 +15,4 @@ public class Q5_countdiv {
         int result = B/K - init/K +1;
         return result;
     }
+}

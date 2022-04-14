@@ -1,4 +1,4 @@
-package Programmers.Skill_Check.LEVEL2;
+package Private.skill.LEVEL2;
 
 public class Problem_1_1 {
     public int[] solution(int[] money) {
