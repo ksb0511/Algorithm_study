@@ -1,0 +1,17 @@
+class Solution
+{
+    public int solution(int []A, int []B)
+    {
+        int answer = 0;
+        Arrays.sort(A);
+        Arrays.sort(B);
+
+        int arr_len = A.length;
+        for(int i=0;i<arr_len;i++)
+            answer += A[i]*B[arr_len-i-1];
+        
+
+
+        return answer;
+    }
+}
