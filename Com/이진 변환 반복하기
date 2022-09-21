@@ -1,0 +1,18 @@
+class Solution {
+    public int[] solution(String s) {
+        int[] answer = {};
+        
+        int remove_zero = 0;
+        int step = 0; 
+        int s_num = 0;
+        while(!s.equals("1")){
+
+            s_num = s.replace(String.valueOf("0"), "").length();
+            remove_zero += s.length() - s_num;
+            s = Integer.toBinaryString(s_num);
+            
+            step++;
+        }
+        return new int[]{step, remove_zero};
+    }
+}
